@@ -10,6 +10,15 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    
+    @IBOutlet weak var TitleLabelField: NSTextField!
+    @IBOutlet weak var ContentSearchField: NSSearchField!
+    
+    @IBAction func TorrentSearchField(_ sender: Any) {
+        TitleLabelField.stringValue = " Searching for ... \(ContentSearchField.stringValue) in T411 database"
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +30,8 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+    
+    
 
 
 }
