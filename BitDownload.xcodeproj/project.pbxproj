@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7667D0341E81292000569360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7667D0331E81292000569360 /* AppDelegate.swift */; };
+		7667D0361E81292000569360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7667D0351E81292000569360 /* ViewController.swift */; };
+		7667D0381E81292000569360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7667D0371E81292000569360 /* Assets.xcassets */; };
+		7667D03B1E81292000569360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7667D0391E81292000569360 /* Main.storyboard */; };
+		7667D0461E81292000569360 /* BitDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7667D0451E81292000569360 /* BitDownloadTests.swift */; };
+		7667D0511E81292000569360 /* BitDownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7667D0501E81292000569360 /* BitDownloadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7667D0421E81292000569360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7667D0281E81292000569360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7667D02F1E81292000569360;
+			remoteInfo = BitDownload;
+		};
+		7667D04D1E81292000569360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7667D0281E81292000569360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7667D02F1E81292000569360;
+			remoteInfo = BitDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7667D0301E81292000569360 /* BitDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7667D0331E81292000569360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7667D0351E81292000569360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7667D0371E81292000569360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7667D03A1E81292000569360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7667D03C1E81292000569360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7667D0411E81292000569360 /* BitDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7667D0451E81292000569360 /* BitDownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitDownloadTests.swift; sourceTree = "<group>"; };
+		7667D0471E81292000569360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7667D04C1E81292000569360 /* BitDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7667D0501E81292000569360 /* BitDownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitDownloadUITests.swift; sourceTree = "<group>"; };
+		7667D0521E81292000569360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7667D02D1E81292000569360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667D03E1E81292000569360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667D0491E81292000569360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7667D0271E81292000569360 = {
+			isa = PBXGroup;
+			children = (
+				7667D0321E81292000569360 /* BitDownload */,
+				7667D0441E81292000569360 /* BitDownloadTests */,
+				7667D04F1E81292000569360 /* BitDownloadUITests */,
+				7667D0311E81292000569360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7667D0311E81292000569360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7667D0301E81292000569360 /* BitDownload.app */,
+				7667D0411E81292000569360 /* BitDownloadTests.xctest */,
+				7667D04C1E81292000569360 /* BitDownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7667D0321E81292000569360 /* BitDownload */ = {
+			isa = PBXGroup;
+			children = (
+				7667D0331E81292000569360 /* AppDelegate.swift */,
+				7667D0351E81292000569360 /* ViewController.swift */,
+				7667D0371E81292000569360 /* Assets.xcassets */,
+				7667D0391E81292000569360 /* Main.storyboard */,
+				7667D03C1E81292000569360 /* Info.plist */,
+			);
+			path = BitDownload;
+			sourceTree = "<group>";
+		};
+		7667D0441E81292000569360 /* BitDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				7667D0451E81292000569360 /* BitDownloadTests.swift */,
+				7667D0471E81292000569360 /* Info.plist */,
+			);
+			path = BitDownloadTests;
+			sourceTree = "<group>";
+		};
+		7667D04F1E81292000569360 /* BitDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7667D0501E81292000569360 /* BitDownloadUITests.swift */,
+				7667D0521E81292000569360 /* Info.plist */,
+			);
+			path = BitDownloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7667D02F1E81292000569360 /* BitDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7667D0551E81292000569360 /* Build configuration list for PBXNativeTarget "BitDownload" */;
+			buildPhases = (
+				7667D02C1E81292000569360 /* Sources */,
+				7667D02D1E81292000569360 /* Frameworks */,
+				7667D02E1E81292000569360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitDownload;
+			productName = BitDownload;
+			productReference = 7667D0301E81292000569360 /* BitDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7667D0401E81292000569360 /* BitDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7667D0581E81292000569360 /* Build configuration list for PBXNativeTarget "BitDownloadTests" */;
+			buildPhases = (
+				7667D03D1E81292000569360 /* Sources */,
+				7667D03E1E81292000569360 /* Frameworks */,
+				7667D03F1E81292000569360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7667D0431E81292000569360 /* PBXTargetDependency */,
+			);
+			name = BitDownloadTests;
+			productName = BitDownloadTests;
+			productReference = 7667D0411E81292000569360 /* BitDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7667D04B1E81292000569360 /* BitDownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7667D05B1E81292000569360 /* Build configuration list for PBXNativeTarget "BitDownloadUITests" */;
+			buildPhases = (
+				7667D0481E81292000569360 /* Sources */,
+				7667D0491E81292000569360 /* Frameworks */,
+				7667D04A1E81292000569360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7667D04E1E81292000569360 /* PBXTargetDependency */,
+			);
+			name = BitDownloadUITests;
+			productName = BitDownloadUITests;
+			productReference = 7667D04C1E81292000569360 /* BitDownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7667D0281E81292000569360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thomas Buatois";
+				TargetAttributes = {
+					7667D02F1E81292000569360 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7667D0401E81292000569360 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7667D02F1E81292000569360;
+					};
+					7667D04B1E81292000569360 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7667D02F1E81292000569360;
+					};
+				};
+			};
+			buildConfigurationList = 7667D02B1E81292000569360 /* Build configuration list for PBXProject "BitDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7667D0271E81292000569360;
+			productRefGroup = 7667D0311E81292000569360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7667D02F1E81292000569360 /* BitDownload */,
+				7667D0401E81292000569360 /* BitDownloadTests */,
+				7667D04B1E81292000569360 /* BitDownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7667D02E1E81292000569360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7667D0381E81292000569360 /* Assets.xcassets in Resources */,
+				7667D03B1E81292000569360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667D03F1E81292000569360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667D04A1E81292000569360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7667D02C1E81292000569360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7667D0361E81292000569360 /* ViewController.swift in Sources */,
+				7667D0341E81292000569360 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667D03D1E81292000569360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7667D0461E81292000569360 /* BitDownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7667D0481E81292000569360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7667D0511E81292000569360 /* BitDownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7667D0431E81292000569360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7667D02F1E81292000569360 /* BitDownload */;
+			targetProxy = 7667D0421E81292000569360 /* PBXContainerItemProxy */;
+		};
+		7667D04E1E81292000569360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7667D02F1E81292000569360 /* BitDownload */;
+			targetProxy = 7667D04D1E81292000569360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7667D0391E81292000569360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7667D03A1E81292000569360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7667D0531E81292000569360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7667D0541E81292000569360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7667D0561E81292000569360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.macpowered.BitDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7667D0571E81292000569360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.macpowered.BitDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7667D0591E81292000569360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.macpowered.BitDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitDownload.app/Contents/MacOS/BitDownload";
+			};
+			name = Debug;
+		};
+		7667D05A1E81292000569360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.macpowered.BitDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitDownload.app/Contents/MacOS/BitDownload";
+			};
+			name = Release;
+		};
+		7667D05C1E81292000569360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.macpowered.BitDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BitDownload;
+			};
+			name = Debug;
+		};
+		7667D05D1E81292000569360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BitDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.macpowered.BitDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BitDownload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7667D02B1E81292000569360 /* Build configuration list for PBXProject "BitDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7667D0531E81292000569360 /* Debug */,
+				7667D0541E81292000569360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7667D0551E81292000569360 /* Build configuration list for PBXNativeTarget "BitDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7667D0561E81292000569360 /* Debug */,
+				7667D0571E81292000569360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7667D0581E81292000569360 /* Build configuration list for PBXNativeTarget "BitDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7667D0591E81292000569360 /* Debug */,
+				7667D05A1E81292000569360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7667D05B1E81292000569360 /* Build configuration list for PBXNativeTarget "BitDownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7667D05C1E81292000569360 /* Debug */,
+				7667D05D1E81292000569360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7667D0281E81292000569360 /* Project object */;
+}
