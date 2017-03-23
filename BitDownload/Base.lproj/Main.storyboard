@@ -723,25 +723,64 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <searchField wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffI-wX-65m">
-                                <rect key="frame" x="130" y="219" width="204" height="22"/>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-Cx-Pj8">
+                                <rect key="frame" x="55" y="219" width="96" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="center" title="Search a torrent" usesSingleLineMode="YES" bezelStyle="round" id="Jo1-VQ-Z1d">
-                                    <font key="font" metaFont="systemThin" size="13"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="37e-Uq-vVT">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                    <connections>
-                                        <action selector="TorrentSearchField:" target="XfG-lQ-9wD" id="Se0-7I-6hq"/>
-                                    </connections>
-                                </searchFieldCell>
-                            </searchField>
+                                </textFieldCell>
+                            </textField>
+                            <secureTextField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysR-2U-i1X">
+                                <rect key="frame" x="226" y="219" width="96" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="dNO-id-YqT">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <allowedInputSourceLocales>
+                                        <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                    </allowedInputSourceLocales>
+                                </secureTextFieldCell>
+                            </secureTextField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmo-D9-1Cy">
+                                <rect key="frame" x="20" y="224" width="37" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="User" id="5Qf-SI-EM1">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYQ-Oe-YsF">
+                                <rect key="frame" x="157" y="221" width="63" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="password" id="LUs-er-nGt">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TuR-Kj-ImF">
+                                <rect key="frame" x="343" y="214" width="81" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Auth" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ViA-EH-qxi">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="GetAuth:" target="XfG-lQ-9wD" id="MNr-5I-jkh"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="ContentSearchField" destination="ffI-wX-65m" id="vcP-WQ-8Ai"/>
-                        <outlet property="SearchFild" destination="ffI-wX-65m" id="7gU-oW-5Qb"/>
-                        <outlet property="TextFieldTest" destination="Xds-Zl-ygh" id="vcd-e7-w4X"/>
+                        <outlet property="GetAuth" destination="TuR-Kj-ImF" id="Pme-bE-d60"/>
+                        <outlet property="PasswordSecureTextField" destination="ysR-2U-i1X" id="WGp-PA-VJ9"/>
+                        <outlet property="TextFieldTest" destination="Xds-Zl-ygh" id="q3N-aS-rwt"/>
                         <outlet property="TitleLabelField" destination="dqq-jW-37l" id="9qv-YJ-AcO"/>
+                        <outlet property="UsernameTextField" destination="kP4-Cx-Pj8" id="HDn-8Y-qtK"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
