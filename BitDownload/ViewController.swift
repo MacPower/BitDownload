@@ -15,7 +15,6 @@ class ViewController: NSViewController {
     @IBOutlet weak var ContentSearchField: NSSearchField!
     
     @IBAction func TorrentSearchField(_ sender: Any) {
-        TitleLabelField.stringValue = " Searching for ... \(ContentSearchField.stringValue) in T411 database"
         
     }
     
